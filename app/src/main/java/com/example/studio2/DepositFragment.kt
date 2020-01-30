@@ -21,5 +21,11 @@ class DepositFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_deposit, container, false)
     }
 
+    public fun deposit(view: View?) {
+        val intent = activity!!.intent
+        val money = deposit_value.text.toString()
+
+    }
+
 
 }
